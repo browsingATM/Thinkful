@@ -1,0 +1,30 @@
+#1
+import numpy as np
+import pandas as pd
+
+data = pd.DataFrame()
+data['name'] = ['Greg', 'Marcia', 'Peter', 'Jan', 'Bobby', 'Cindy', 'Oliver']
+data['age'] = [14, 12, 11, 10, 8, 6, 8]
+
+print(np.mean(data['age']))
+print(np.median(data['age']))
+#answer: 9.857142857142858; 10
+#How do i calculate mode? The Thinkful instructions weren't super clear
+
+#2, i would choose mean because the variance between their age is low so mean gives a more accurate answer.
+#Also, I would pick st. dev to measure how close the outliers were to the center as opposed trying to calculate a standard error. There are
+# no uncertainties in this data set so expected error wouldn't really apply.
+
+#3 the median and mean both = 10 if Cindy has a birthday.
+
+#4 The mean lowers to 9 if Jessica replaces Oliver. i would choose median because the variance is now larger. 
+
+#5 the 50th anniversary is 2019. Since there are ~325M adults in the USA and ~22% are younger than 18, that = 260M adults in the USA. 
+# Readership:
+# TV Guide: 28M
+# Entertainment Weekly: 25.8M
+# Pop Culture Today: unknown
+# SciPhi Fanatic: unknown
+#
+# if Pop Culture and SciPhi are similar readership to industry leaders like TV Guide, then it's safe to say the # of americans fans of 
+#Brady Bunch is ~17.5M
