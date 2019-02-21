@@ -1,0 +1,23 @@
+#1
+h = .5
+t = .5
+HTTH = (h * h) + (t * t)
+HHHH = h * h * h * h
+TTHH = (h * h) + (t * t)
+
+#2
+women = 24
+men = 21
+ptotal = women + men
+not_man = woman / ptotal
+return not_man
+
+#3
+ptravel = 0.1
+pdeath = 0.00005
+bernice_death = ptravel * pdeath
+return bernice_death
+
+#4
+The conclusion is that the sample size is so small that the variance isn't accurate. It has "survivor bias." 
+Instead, the conclusion should be "95% of users don't click to other sites and spend less than 15 minutes on the site.
