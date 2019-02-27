@@ -1,11 +1,31 @@
 A | B = 0.98
+~A | B = XXX
 A | ~B = 0.10
-B = 0.005 
+~A | ~B = .9
+B = 0.005
+~B = 0.995
+
+P(B | A) = (P(A) / P(B)) / (A | B)
+= (P(A) / 0.005)) / 0.98
+PBA / .98 = PA / 0.005 = .98 * 
 
 #1
 .98 = (B | A) * P(A) / .005
+0.0049 = (B | A) * P(A)
 
 #2
-
+0.98
 
 #3
+.9
+
+#4
+Sum of P A|~B and ~A | B
+0.1 + ?
+true positive (0.0049)
+true negative (0.8955)
+0.9004 - 1
+
+incorrectly classified = 0.0996
+
+
