@@ -1,22 +1,27 @@
-1. What was the hottest day in our data set? Where was wat
+-- 1. What was the hottest day in our data set? Where was wat
 #() is where the column name or number goes.
 SELECT MAX (maxtemperaturef) as max_t, zip
 FROM weather
 GROUP BY zip
 ORDER BY max_t DESC;
 
-2. How many trips started at each station?
-SELECT COUNT(start_station)
-FROM trips
-GROUP BY start_station;
+-- 2. How many trips started at each station?
+SELECT 
+	start_station,
+	COUNT(trip_id) AS station_count
+FROM 
+	trips
+GROUP BY start_station
+ORDER BY station_count DESC;
 
-3. What was the shortest trip that happened?
+-- 3. What was the shortest trip that happened?
 SELECT MIN(duration) as min_dur
 FROM trips
 GROUP BY trip_id
-ORDER BY min_dur;
+ORDER BY min_dur
+LIMIT 1;
 
-4. What is the average trip duration, by end station?
+-- 4. What is the average trip duration, by end station?
 SELECT end_station, AVG(duration) as avg_duration
 FROM trips
 GROUP BY end_station
