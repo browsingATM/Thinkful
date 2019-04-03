@@ -12,5 +12,5 @@ WHERE station_id = 84;
 3. "The min temperatures of all the occurrences of rain in zip 94301."
 SELECT mintemperaturef
 FROM weather
-WHERE zip_code = 94301 AND 
-??
+WHERE zip = 94301 and events LIKE ?? (rain)
+
