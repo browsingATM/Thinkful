@@ -10,7 +10,7 @@ FROM stations
 WHERE station_id = 84;
 
 3. "The min temperatures of all the occurrences of rain in zip 94301."
-SELECT mintemperaturef
+SELECT meantemperaturef
 FROM weather
-WHERE zip = 94301 and events LIKE ?? (rain)
+WHERE zip = 94301 AND events LIKE 'Rain';
 
