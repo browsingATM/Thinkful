@@ -9,6 +9,7 @@ JOIN
 	weather
 ON
 	trips.zip_code = weather.zip;
+#with rainy as (SELECT date From weather WHERE events = 'Rain' GROUP BY 1 )
 
 -- 2. Which station is full most often?
 SELECT 
