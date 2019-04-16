@@ -16,6 +16,27 @@ GROUP BY neighbourhood
 ORDER BY nor DESC;
 
 -- 3a. What time of year is the cheapest time to go to San Francisco? 
+???
+SELECT 
+	REPLACE(price, '$', '') as price,
+	calender_date,
+	AVG(price) as avp
+FROM 
+	sfo_calendar
+GROUP BY
+	calendar_date
+ORDER BY avp DESC; 
 
 
--- 3b. What about the busiest time of year?
+-- 3b. What time of year is the busiest time to go to San Francisco? 
+falltime September and October
+
+SELECT 
+	calender_date,
+	COUNT (available) AS datecount
+FROM
+	sfo_calendar 
+WHERE 
+	available = 'f'
+GROUP BY calender_date
+ORDER BY datecount DESC;
