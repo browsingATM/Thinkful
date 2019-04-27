@@ -1,0 +1,16 @@
+Categorize each of the variables in the ESS dataset as categorical or continuous, and 
+if continuous as ordinal, interval, or ratio variables. 
+
+cntry: categorical
+year: interval or categorical
+idno: continuous, ordinal
+tvtot: categorical
+ppltrst: continuous, ratio
+pplfair: continuous, ratio
+pplhlp: continuous, interval
+happy: continuous, interval
+sclmeet: categorical
+schlact: categorical
+gndr: categorical
+agea: continuous, ratio
+partner: categorical
