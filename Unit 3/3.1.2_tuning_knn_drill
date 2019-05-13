@@ -1,0 +1,9 @@
+Let's say we work at a credit card company and we're trying to figure out if people are going to pay their bills on time. 
+We have everyone's purchases, split into four main categories: groceries, dining out, utilities, and entertainment. 
+What are some ways you might use KNN to create this model? What aspects of KNN would be useful?
+
+different expenses have different number of occurances and price points. 
+modeling how close to these clustered expenses new expenses are could help predict that model.
+
+Example: utilities are usually 1-2 a month for each utiliy and are usually higher dollar than an average grocery bill.
+grocery bills may be several times a week; entertainment will be weighted from thursday-sunday; dining out close to meal times.
