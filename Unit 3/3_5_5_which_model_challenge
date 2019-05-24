@@ -4,20 +4,20 @@ For each, identify which supervised learning method(s) would be best for address
 Explain your reasoning and discuss your answers with your mentor.
 
     1. Predict the running times of prospective Olympic sprinters using data from the last 20 Olympics.
-    -> Naive Bayes. All runners are independent of each other and so only need to rely on the single feature of the runner.
+    -> Linear Regression. All runners are independent of each other and so only need to rely on the single feature of the runner.
     2. You have more features (columns) than rows in your dataset.
-    -> KNN? We can drop the noisey features and identify the ones which are most predictive.
+    -> Naive Bayes. Works well with large data sets and treats each feature independently.
     3. Identify the most important characteristic predicting likelihood of being jailed before age 20.
     -> boosting. Taking a few weak learnings and aggregating the results. Protecting against overfitting as well. Works well with categories
     4. Implement a filter to “highlight” emails that might be important to the recipient
     -> Naive Bayes. Each email is independent of the others and we need to classify the data with an outcome: spam or not spam.
     5. You have 1000+ features.
-    -> KNN? We can drop the noisey features and identify the ones which are most predictive.
+    -> Naive Bayes. Works well with large data sets and treats each feature independently.
     6. Predict whether someone who adds items to their cart on a website will purchase the items.
     -> Random Forest. Depending on certain behaviors we can categorize the user as likely to buy or not.
     7. Your dataset dimensions are 982400 x 500
-    -> KNN? We can drop the noisey features and identify the ones which are most predictive.
+    -> Naive Bayes. Works well with large data sets and treats each feature independently.
     8. Identify faces in an image.
-    -> Tensorflow? 
+    -> Tensorflow or SVM?
     9. Predict which of three flavors of ice cream will be most popular with boys vs girls.
     -> Random Forest. Using other features we can best estimate which flavors would be favorited by which sex.
