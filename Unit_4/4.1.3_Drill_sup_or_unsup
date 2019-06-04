@@ -1,0 +1,12 @@
+For each of these scenarios decide if you could use supervised or unsupervised techniques, or both!
+
+    Define the likelihood that an individual will contract a specific disease: 
+    ->supervised
+    Translate a set of images into variables for modeling
+    ->both
+    An ecommerce company wants to identify power users
+    supervised
+    That same company wants to see shopping patterns in users
+    ->both
+    You want to reduce the number of variables inputting into your random forest model
+    ->supervised
