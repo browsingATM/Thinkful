@@ -1,0 +1,25 @@
+#DRILL: When to use surveys 
+State whether a survey would be the best option for answering each of the following questions.
+
+1. Popularity of various Uber drivers. 
+--> No. It is better to get a review of the individual drivers since recency bias affects the opinions about the Uber driver population.
+
+2. A grocery store wants to know how much people like strawberry, chocolate, and vanilla ice cream. 
+--> Yes. It is defined to a few flavors all provided by the store, existing customers can be easily asked, and 
+the store has control of the product's quality assurance for a uniform, trustworthy survey. 
+
+3. Trojan wants to know whether their condoms are more popular among straight people or gay people. 
+--> No. the data set has two principle issue. One is survey respondents aren't uniformly likely to review their sexual identity as the other.
+Secondly, straight people are outnumber gay people. So, weighting must occur. However, due to the first issue, the second issue
+with weighting gets compounded.
+
+4. Recently, rental rates for HappyCars have increased by 30%, which is quite unusual. 
+You want to find out why this is happening and how to keep the increase going. 
+--> Assuming the survey is going out to customers of HappyCars, yes. You would want to interview the ones who paid a premium 
+and understand their preferences & experience vs the people who paid traditional rates.
+
+5. Assessing the success rate of a new advertising campaign. 
+--> No. Preference falsification, and the cost of understanding why so many people didn't buy is too high.
+
+6. Measuring the effect of nurse/patient ratio on patient recovery rates in hospital wards.
+--> you don't need a survey for this. This can be done with a series of A/B tests.
